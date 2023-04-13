@@ -1,0 +1,63 @@
+.body{
+  line-height:0.5 
+}
+
+.container1, .container2, .container3, .container4, .container5{
+   display: flex;
+   height: 50px;
+   background:lightblue;
+   /* padding: 5px; */
+   justify-content: space-between;
+}
+
+.item1{
+    flex:1;
+    background:gray;
+    margin: 10px 10px 10px 10px;
+}
+
+.item2{
+    flex:1;
+    background: gray;   
+    margin: 7.5px;
+    width: 10px;
+}
+    
+.item3{
+    flex:2 1 0;
+    background:gray;
+    margin: 4px;
+    border: 2px solid black;
+}
+
+.item4{
+    flex: 1 1 0;
+    background:gray;
+    margin: 4px;
+    border: 2px solid black;
+}
+
+.item5{
+   flex: auto;
+   background: gray; 
+   margin: 4px;
+   border: 2px solid black;
+}
+
+.item6{
+    flex: auto;
+    background: gray; 
+    margin: 4px;
+    border: 2px solid black;
+}
+
+
+
+
+      
+
+
+
+
+
+
